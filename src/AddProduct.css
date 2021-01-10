@@ -1,0 +1,38 @@
+.AddProduct{
+  display: flex;
+  background-color: rgb(116, 182, 226,0.5);
+  height: 100vh;
+}
+.AddProduct>form{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    background-color: #fff;
+    padding: 30px 20px;
+    margin: auto;}
+
+    .AddProduct>form>input,textarea{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        font-size: 18px;
+      
+        color: #000000;
+        border-radius: 15px;
+        border: none;
+        background-color:  rgb(116, 182, 226,0.5);
+
+    }
+    .AddProduct>form>button{
+      
+        border-radius: 10px;
+     padding: 5px 10px;
+     font-size: 17px;
+     font-weight: 500;
+     background-color: rgb(23, 23, 231);
+     color: rgb(226, 225, 230);
+     box-shadow: none;
+     
+    }

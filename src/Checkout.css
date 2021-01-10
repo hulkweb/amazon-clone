@@ -1,0 +1,138 @@
+.Checkout{
+    display: flex;
+    flex-direction: row;
+  background-color: rgb(188, 211, 233);
+  min-height:100vh ;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.checkout_header{
+    display: flex;
+    flex-direction: row;
+ 
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.checkout_header >h1{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    
+   
+}
+.checkout_header>p{
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+.Checkout_left{
+
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Checkout_product{
+    display: flex;
+    flex-direction: row;
+   padding: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000;
+  justify-content: space-between;
+ flex-wrap: wrap;
+flex-wrap: wrap;
+}
+.Checkout_product_img{
+    display: flex;
+    padding: 10px;
+    flex: 0.2;
+    height: 250px;
+    flex: 0.4;
+}
+.Checkout_product_img>img{
+    height: 200px;
+
+}
+.Checkout_product_info{
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.Checkout_product_info>p{
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.Checkout_product button{
+    /* margin: 0 auto; */
+    
+    width: 200px;
+    border:2px solid #9b8507;
+    border-radius: 5px;
+ padding: 5px 10px;
+ font-size: 19px;
+ font-weight: 500;
+ background-color: rgb(253, 237, 6);
+ color: rgb(27, 14, 63);
+ box-shadow: none;
+ margin-top: 10px;
+}
+.Checkout_product h2{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    flex:0.2;
+   text-align: right;
+}
+.Checkout_right{
+    padding: 20px 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    height: fit-content;
+    
+}
+.Checkout_right p:first-child{ 
+ font-size: 20px;
+ font-weight: 500;
+ font-family: sans-serif;
+ padding: 10px;
+ 
+}
+.Checkout_right p{ 
+    font-size: 19px;
+    font-weight: 488;
+    
+    padding: 10px;
+
+    margin: 0px;
+   }
+   .Checkout_right input{
+       margin: 10px;
+   }
+
+   .Checkout_right button{
+   
+    border:1px solid #9b8507;
+    border-radius: 5px;
+ padding: 5px 10px;
+ font-size: 17px;
+ font-weight: 500;
+ background-color: rgb(253, 237, 6);
+ color: rgb(27, 14, 63);
+ box-shadow: none;
+ margin-top: 10px;
+   }
+
